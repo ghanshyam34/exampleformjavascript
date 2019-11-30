@@ -1,0 +1,31 @@
+<html>
+<script language="javascript">
+function add()
+{
+  x=f1.t1.value;
+  y=f1.t2.value;
+  z=eval(x)+eval(y);
+  f1.t3.value=z;
+ }
+ function sub()
+ {
+  x=f1.t1.value;
+  y=f1.t2.value;
+  z=eval(x)-eval(y);
+  f1.t3.value=z;
+ }
+</script>
+<body>
+<table>
+<form name="f1">
+<tr><td>enter first  no.</td><td><input type=text name="t1"></td></tr>
+<tr><td>enter second no.</td><td><input type=text name="t2"></td></tr>
+<tr><td>-------result---</td><td><input type=text name="t3"></td></tr>
+<tr><td><input type="button" value="add" onclick="add()"></td>
+    <td><input type="button" value="sub" onclick="sub()"></td></tr>
+
+
+</form>
+</table>
+</body>
+</html>
